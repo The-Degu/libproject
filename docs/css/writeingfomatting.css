@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:darkslategray;
+}
+a{
+    background-color:transparent;
+}
+strong{
+    background-color: transparent;
+}
+p{
+    text-align: center;
+    background-color:transparent;
+}
+h1{
+    text-align: center;
+    background-color:transparent;
+}
+h2{
+    background-color:transparent;
+    font-size: .9vw;
+    text-indent: 3vw;
+    font-weight: normal;
+    font-size: 1.2vw;
+}
+h6{
+    background-color:transparent;
+    font-family: 'Homemade Apple', cursive;
+    font-size: .9vw;
+    text-indent: 3vw;
+}
+.alt{
+    padding:1vw;
+    background-color:transparent;
+    width:40vw;
+ 
+    margin:0 auto;
+   
+}
+.sheet{
+    padding:1vw;
+    background-color:whitesmoke;
+    width:40vw;
+    height:50vw;
+    margin:0 auto;
+}
+.outter{
+  
+    width:80vw;
+    background-color:wheat;
+    margin:0 auto;
+}
