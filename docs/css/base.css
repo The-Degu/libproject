@@ -29,25 +29,27 @@ h2{
     font-family: 'Playfair Display', serif;
 }
 .background{
-    width:100vw;
-    background-color:black;
+    height: auto;
+    width:AUTO;
+    background-color:rgb(22, 23, 22);
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .seckondlayer{
-    
-    width:90vw;
+   
     background-color:tan;
     border-radius: 5%; 
     align-items: center;
 }
- .bottom{
-    display:flex; 
-}
 
 .colum{
-
-   width:50%;
+    display:;
+    background-color: purple;
+    float: left;
+    width: 40%;
+    margin: 3vw;
+   
+   
 }
