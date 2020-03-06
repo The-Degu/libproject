@@ -17,7 +17,7 @@ P{
     font-family: 'Playfair Display', serif;
 }
 h1{
-    color:brown;
+    color:rgb(89, 32, 32);
     font-family: 'Lobster Two', cursive;
     font-size: 15vh;
     text-align:center;
@@ -27,6 +27,11 @@ h2{
     font-size:5vh;
     text-align: center;
     font-family: 'Playfair Display', serif;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .background{
     height: auto;
@@ -46,7 +51,7 @@ h2{
 
 .colum{
     display:;
-    background-color: purple;
+    background-color: transparent;
     float: left;
     width: 40%;
     margin: 3vw;
