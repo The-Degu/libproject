@@ -50,11 +50,24 @@ img{
 }
 
 .colum{
-    display:;
+
     background-color: transparent;
     float: left;
     width: 40%;
     margin: 3vw;
-   
-   
+
+}
+@media screen and (max-width: 1000px){
+    img{
+     width: 1vw;
+     height:auto; 
+    }
+
+.colum{
+
+    background-color: transparent;
+    width: 100%;
+    margin: 3vw;
+
+}
 }
