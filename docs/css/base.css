@@ -28,6 +28,9 @@ h2{
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
+h3{
+    text-align: center;
+}
 img{
     display: block;
     margin-left: auto;
