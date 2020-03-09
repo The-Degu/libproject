@@ -17,6 +17,7 @@ h1{
     text-align: center;
     background-color:transparent;
 }
+/* base text */
 h2{
     background-color:transparent;
     font-size: .9vw;
@@ -38,6 +39,7 @@ h6{
     margin:0 auto;
    
 }
+/*paper style backing*/
 .sheet{
     padding:1vw;
     background-color:whitesmoke;
@@ -45,13 +47,23 @@ h6{
     height:50vw;
     margin:0 auto;
 }
+/* the inner tan area */
 .outter{
   
     width:80vw;
     background-color:wheat;
     margin:0 auto;
 }
-
+/* image not wokring maybe start from the begining */
+/* .booklet{
+    display:inherit;
+    width:30vw;
+    height:10vh;
+    margin:auto;
+    background-image:url(./assets/booklet.jpg);
+    background-size: contain;
+    background-color:transparent
+} */
 
 @media screen and (max-width: 1000px){
     h2{
