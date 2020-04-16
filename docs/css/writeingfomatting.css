@@ -12,6 +12,7 @@ strong{
 p{
     text-align: center;
     background-color:transparent;
+    width:56;
 }
 h1{
     text-align: center;
@@ -20,10 +21,12 @@ h1{
 /* base text */
 h2{
     background-color:transparent;
-    font-size: .9vw;
-    text-indent: 3vw;
+    font-size: 1.5vw;
+    text-indent: 4vw;
     font-weight: normal;
-    font-size: 1.2vw;
+    line-height: 1.6;
+    padding-left:5vw;
+    padding-right:5vw;
 }
 h6{
     background-color:transparent;
@@ -31,11 +34,18 @@ h6{
     font-size: .9vw;
     text-indent: 3vw;
 }
+/* gen text div */
 .alt{
     padding:1vw;
     background-color:transparent;
     width:40vw;
- 
+    margin:0 auto;
+   
+}
+.alttwo{
+    padding:1vw;
+    background-color:transparent;
+    width:70vw;
     margin:0 auto;
    
 }
@@ -49,28 +59,29 @@ h6{
 }
 /* the inner tan area */
 .outter{
-  
+    padding:3vw;
     width:80vw;
     background-color:wheat;
     margin:0 auto;
+
 }
-/* image not wokring maybe start from the begining */
-/* .booklet{
-    display:inherit;
-    width:30vw;
-    height:10vh;
-    margin:auto;
-    background-image:url(./assets/booklet.jpg);
-    background-size: contain;
-    background-color:transparent
-} */
+/* doab image */
+.booklet{
+   width: 40vw;
+   height:33vw;
+   margin:auto;
+   background-image: url(../assets/imgs/booklet.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+} 
 
 @media screen and (max-width: 1000px){
     h2{
-        background-color:transparent;
         font-size: 100%;
         text-indent: 3vw;
         font-weight: normal;
+        background-size: contain;
         
     }
     .alt{
