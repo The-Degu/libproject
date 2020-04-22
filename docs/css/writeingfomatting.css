@@ -1,6 +1,9 @@
 *{
     margin:0;
     padding:0;
+
+}
+body{
     background-color:darkslategray;
 }
 a{
@@ -65,7 +68,7 @@ h6{
     margin:0 auto;
 
 }
-/* doab image */
+/* doab images */
 .booklet{
    width: 40vw;
    height:33vw;
@@ -75,6 +78,13 @@ h6{
    background-size: cover;
 
 } 
+.poem{ 
+    width: 40vw;
+    height:40vw;
+    margin:auto;
+    background-image: url(../assets/imgs/poem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
 
 @media screen and (max-width: 1000px){
     h2{
@@ -91,4 +101,11 @@ h6{
         margin:0 auto;
        
     }
+    .poem{ 
+        width: 60vw;
+        height:60vw;
+        margin:auto;
+        background-image: url(../assets/imgs/poem.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
 }
