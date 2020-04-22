@@ -11,13 +11,7 @@ body{
     /* height:100vh; */
     background-color:wheat;
     margin:0 auto;}
-/* .colum{
-
-    background-color: transparent;
-    float: left;
-    width: 40%;
-    margin: 3vw
-} */
+/* images */
 .bug{
     width: 40vw;
     height:43vw;
@@ -28,6 +22,20 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
+.nakie{
+    width: 40vw;
+    height:43vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/imgs/wolf.png  );
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+hr.new1{
+    border: .25vh solid;
+}
+
 h1{
     text-align: center;
     line-height: 1.6;
