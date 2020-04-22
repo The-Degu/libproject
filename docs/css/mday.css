@@ -32,6 +32,16 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
+.dna{
+    width: 40vw;
+    height:43vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/imgs/Karyotype.png  );
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 hr.new1{
     border: .25vh solid;
 }
