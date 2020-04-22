@@ -51,12 +51,25 @@ p{
     line-height:1.6;
 }
 ul{
-    padding-left:5vw;
-    padding-right:5vw;
+    padding-left:6vw;
+    padding-right:6vw;
     line-height:1.6;
 }
 h2{
     text-align:center;
+   
+}
+ul.a{
+font-size:3.5vh;
+font-weight:bold;
+}
+ul.b{
+    font-size:2.5vh;
+    font-weight:normal;
+}
+ul.c{
+    font-size:2.5vh;
+    font-weight:normal;
 }
 @media screen and (max-width: 1000px){
   .bug{
