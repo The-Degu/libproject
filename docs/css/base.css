@@ -72,8 +72,8 @@ h3{
     width: 30vw;
     height:33vw;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    margin-left: 8vw;
     background-image: url(../assets/imgs/fl\ exterior.png  );
     background-repeat: no-repeat;
     background-size: contain;
