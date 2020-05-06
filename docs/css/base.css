@@ -83,12 +83,6 @@ h3{
     background-size:cover;
    background-repeat:no-repeat;
 }
-{
-    width: 30vw;
-    height:33vw;
-    background-color:green;
-    background-image:url();
-} 
 
 
 @media screen and (max-width: 1000px){
@@ -108,5 +102,4 @@ h3{
     width: 70vw;
     height:70vw;
     margin-left: 15%;
-  
 }
