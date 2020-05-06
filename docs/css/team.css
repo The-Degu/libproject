@@ -4,14 +4,31 @@
 }
 body{
     background-color:#783561;
-    background-image:url(../assets/imgs/logo.png);
-    background-size:contain;
-    background-repeat: no-repeat;
+   
+}
+.background{
+  width:40vw;
+  height:40vw;
+
+  background-image:url(../assets/imgs/logo.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  position:fixed;
+
+
+  left: 50%;
+  margin-left: -20vw;
+
+
+
 }
 p{
     line-height:1.6;
     text-align:center;
     font-family: 'Playfair Display', serif;
+    font-size:120%;
+    padding-left:1vw;
+    padding-right:1vw;
 }
 h1{
   font-family: 'Great Vibes', cursive;
@@ -50,12 +67,11 @@ h2{
 
 /* card css */
 .flip-card {
-     margin-left:auto; 
+    margin-left:auto; 
     background-color: transparent;
     width: 30vw;
     height: 30vw;
-  
-    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+    padding:2vw;
   }
   
   /* This container is needed to position the front and back side */
@@ -114,3 +130,36 @@ h2{
     background-color: rgb(80, 142, 80);
     color: white;
     transform: rotateY(180deg);}
+
+
+    @media screen and (max-width: 1000px){
+    
+      .colum{
+        width: 95%;
+        margin: auto;
+    }
+    .flip-card {
+      margin-left:18vw; 
+      background-color: transparent;
+      width: 65vw;
+      height: 65vw;
+      padding:3vw;
+    }
+    .background{
+      width:90vw;
+      height:90vw;
+      
+      left: 50%;
+     margin-left: -45vw;
+    }
+    h1{
+      font-size:400%;
+    }
+    h2{
+      font-size:150%;
+    }
+    p{
+      font-size:100%;
+
+    }
+    }
