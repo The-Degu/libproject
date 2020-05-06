@@ -74,17 +74,21 @@ h3{
     margin-left: 0vw;
     font-family: 'Playfair Display', serif;
 }
+.outside{
+    background-color:pink;
+    height:30vw;
+    width:30vw;
+    margin-left:20%;
+    background-image:url(../assets/imgs/exterior.png);
+    background-size:cover;
+   background-repeat:no-repeat;
 }
-.building{
+{
     width: 30vw;
     height:33vw;
-    display: block;
-    /* margin-left: auto; */
-    margin-left: 8vw;
-    background-image: url(../assets/imgs/fl\ exterior.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+    background-color:green;
+    background-image:url();
+} 
 
 
 @media screen and (max-width: 1000px){
@@ -100,8 +104,9 @@ h3{
     margin: 3vw;
 
 }
-.building{
-    width: 80vw;
-    height:60vh
-}
+.outside{
+    width: 70vw;
+    height:70vw;
+    margin-left: 15%;
+  
 }
