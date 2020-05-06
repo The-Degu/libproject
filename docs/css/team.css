@@ -3,22 +3,38 @@
     padding:0;
 }
 body{
-    background-color:rgb(186, 142, 215);
+    background-color:#783561;
+    background-image:url(../assets/imgs/logo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 p{
     line-height:1.6;
     text-align:center;
+    font-family: 'Playfair Display', serif;
 }
 h1{
+  font-family: 'Great Vibes', cursive;
+    font-size:5vw;
     text-align:center;
     line-height: 1.6;
+}
+h2{
+  font-family: 'Great Vibes', cursive;
+  font-size:3vw;
+  text-align:center;
+  line-height: 1.6;
+}
+.banner{
+  background-color:tan;
 }
 .block{
     font-size:1.5vw;
     background-color:tan;
     width: 40vw;
+    height
     margin:auto;
-    border-radius: 20%;
+    /* border-radius: 20%; */
 }
 .colum{
 
@@ -26,6 +42,10 @@ h1{
     float: left;
     width: 40%;
     margin: 3vw;
+}
+.intro{
+  padding-left:7vw;
+  padding-right:7vw;
 }
 
 /* card css */
@@ -71,7 +91,22 @@ h1{
   .one{
     background-repeat: no-repeat;
     background-size:cover;
-    background-image:url(../assets/imgs/founder.png);
+    background-image:url(../assets/imgs/boss.png);
+  }
+  .two{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url(../assets/imgs/riselfy.jpg);
+  }
+  .three{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url(../assets/imgs/barb.jpg);
+  }
+  .four{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:url(../assets/imgs/images.jpg);
   }
   
   /* Style the back side */

@@ -68,16 +68,25 @@ h3{
     margin: 3vw;
 
 }
+.lower{
+    font-size:100%;
+    text-align: left;
+    margin-left: 0vw;
+    font-family: 'Playfair Display', serif;
+}
+}
 .building{
     width: 30vw;
     height:33vw;
     display: block;
     /* margin-left: auto; */
     margin-left: 8vw;
-    background-image: url(../assets/imgs/fl\ exterior.png  );
+    background-image: url(../assets/imgs/fl\ exterior.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
 @media screen and (max-width: 1000px){
     .logo{
         width: 80vw;
